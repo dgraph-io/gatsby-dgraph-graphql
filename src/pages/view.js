@@ -75,7 +75,6 @@ export default function ViewPost(props) {
 
   return (
     <div className="container">
-      {/* <Header /> */}
       <div className="h3 text-center">
         {post.title}
         <span

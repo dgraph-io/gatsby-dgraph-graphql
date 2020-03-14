@@ -110,7 +110,6 @@ export default function EditPost(props) {
 
   return (
     <div className="container">
-      {/* <Header /> */}
       <div className="form-group">
         <label htmlFor="authorSelect">Author:</label>
         <AuthorSelect author={post.author.name} onChange={handleChangeAuthor} />

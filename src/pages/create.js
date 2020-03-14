@@ -50,7 +50,6 @@ export default function AddPost(props) {
 
   return (
     <div className="container">
-      {/* <Header /> */}
       <hr />
       <div className="form-group">
         <label htmlFor="authorSelect">Author:</label>

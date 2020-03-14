@@ -68,7 +68,6 @@ export default function PostList(props) {
 
   return (
     <div className="container">
-      {/* <Header /> */}
       {posts.map(post => (
         <Post key={post.postID} post={post} />
       ))}
