@@ -2,7 +2,7 @@
 
 Simple blog post application to get started with Gatsby and Dgraph's GraphQL API using the awesome plugin [gatsby-source-graphql](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-source-graphql).
 
-Using [Dgraph]((https://graphql.dgraph.io)), you can get GraphQL APIs by just writing the GraphQL schema.
+Using [Dgraph](https://graphql.dgraph.io), you can get GraphQL APIs by just writing the GraphQL schema.
 
 Dgraph auto-generates GraphQL APIs which provide you with capabilities to perform CRUD operations for the types defined in your GraphQL schema.
 
