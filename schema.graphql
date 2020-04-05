@@ -1,13 +1,7 @@
-type Country {
-        id: ID!
-        name: String! @search(by: [trigram, hash])
-}
 type Author {
         id: ID!
         name: String! @search(by: [hash, trigram])
         dob: DateTime @search
-        reputation: Float @search
-        country: Country
         posts: [Post!] @hasInverse(field: author)
 }
 type Post {
@@ -18,6 +12,5 @@ type Post {
         topic: String @search(by: [exact])
         numLikes: Int @search
         isPublished: Boolean @search
-        postType: PostType @search
         author: Author! @hasInverse(field: posts)
 }

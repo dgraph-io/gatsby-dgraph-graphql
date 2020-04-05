@@ -16,7 +16,7 @@ Please check the docs [here](https://docs.dgraph.io/) for more info.
 First clone the repo
 
 ```sh
-$ git clone https://github.com/vardhanapoorv/gatsby-dgraph-graphql.git
+$ git clone https://github.com/dgraph-io/gatsby-dgraph-graphql.git
 $ cd gatsby-dgraph-graphql
 ```
 
